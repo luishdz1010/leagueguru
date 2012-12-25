@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientEmulatorWindow</class>
+ <widget class="QMainWindow" name="ClientEmulatorWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>347</width>
+    <height>283</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QPushButton" name="createMatchup">
+       <property name="text">
+        <string>Create matchup</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="setEnemyRoster">
+       <property name="text">
+        <string>Send enemy roster</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="addBan">
+       <property name="text">
+        <string>Add ban</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QPushButton" name="startsPickingButton">
+       <property name="text">
+        <string>Participants starts picking</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="randomPickButtom">
+       <property name="text">
+        <string>Random Picks</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="lockInNextButton">
+       <property name="text">
+        <string>Lock In next</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>End matchup</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="lockEnemiesButton">
+      <property name="text">
+       <string>Lock Enemies</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

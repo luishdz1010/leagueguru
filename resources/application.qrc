@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/guru.png</file>
+        <file>icon/enemy.png</file>
+        <file>icon/assists.png</file>
+        <file>icon/deaths.png</file>
+        <file>icon/kills.png</file>
+        <file>icon/loses.png</file>
+        <file>icon/wins.png</file>
+        <file>img/invalidChampion.jpg</file>
+        <file>img/highlight_tab.png</file>
+        <file>img/highlight_tab_active.png</file>
+        <file>img/tab.png</file>
+        <file>img/tab_active.png</file>
+        <file>img/tab_disabled.png</file>
+        <file>img/tab_div.png</file>
+        <file>img/loading.gif</file>
+        <file>icon/info.png</file>
+        <file>ssl/prod.eu.lol.riotgames.com.key</file>
+        <file>ssl/prod.eun1.lol.riotgames.com.key</file>
+        <file>ssl/prod.na1.lol.riotgames.com.key</file>
+        <file>icon/adc.png</file>
+        <file>icon/jungle.png</file>
+        <file>icon/mid.png</file>
+        <file>icon/support.png</file>
+        <file>icon/top.png</file>
+    </qresource>
+</RCC>
